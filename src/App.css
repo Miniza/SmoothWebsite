@@ -58,34 +58,15 @@ body{
 .welcomeQuote{
   color: white;
   text-align: center;
+  background-image: url(Images/cleaners.png);
+  background-repeat: no-repeat;
 }
 .randy{
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
   padding-top: 8PX;
-  text-align: center;
-}
-@media screen and (max-width:600px){
-  .homeCard{
-    margin-top: 6%;
-    margin: 10%;
-    padding: 5px;
-    margin-bottom: 5%;
-    color: white;
-    text-align: center;
-    font-weight: normal;
-  }
-  .welcomeQuote{
-    color:white;
-    margin-top: 10%;
-    margin: 10%;
-    padding: 5px;
-    text-align: center;
-  }
-}
-.teamContainer{
-  margin: 1.5%;
+  text-align: justify;
 }
 .footer{
   margin: auto;
@@ -95,8 +76,54 @@ body{
   right: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(0, 47, 255, 0.37);
+  background-color: blue;
   text-align: center;
   color: white;
 }
+.callUs{
+  margin-right: 10%;
+  color: white;
+  text-align: justify;
+}
+@media screen and (max-width:600px){
+  .homeCard{
+    margin-top: 6%;
+    margin: 10%;
+    padding: 5px;
+    margin-bottom: 5%;
+    color: white;
+    text-align: justify;
+    font-weight: normal;
+ 
+  }
+  .welcomeQuote{
+    color: white;
+    margin-top: 10%;
+    margin: 10%;
+    padding: 5px;
+    text-align: justify;
+    background-image: url(Images/cleaners.png);
+  }
+  body{
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .footer{
+    margin: auto;
+    position: static;
+    padding: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  
+    text-align: center;
+    color: white;
+  }
+}
+.teamContainer{
+  margin: 2%;
+}
+
 

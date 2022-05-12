@@ -7,9 +7,8 @@ export default function Footer() {
   return (
       <div className='footer'>
         <p>A clean website for a Cleaning Company</p>
-    <hr/>
-    <FontAwesomeIcon color='white' size='xl' icon={faTwitter} />-<FontAwesomeIcon color='white' icon={faFacebook} />-<FontAwesomeIcon color='white' icon={faLinkedin} />
     <br/>
+    <FontAwesomeIcon color='red' size='xl' icon={faTwitter} />-<FontAwesomeIcon color='red' icon={faFacebook} />-<FontAwesomeIcon color='red' icon={faLinkedin} />
     <p>© 2022 Copyright: Smooth Creations</p>
       </div>
  

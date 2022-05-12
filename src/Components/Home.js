@@ -9,24 +9,19 @@ export default function Home() {
           <Card className='welcomeQuote' border='light' bg='primary'>
     <Card.Body>
       <blockquote className="blockquote mb-0">
-        <p className='text-center mb-4'>
+        <h4 className='text-center mb-4'>
           {' '}
-          “When I want my place,yard or house to look clean, I take off my glasses.”{' '}
-        </p>
+          “Instead of cleaning the house, I just turn off the lights.” {' '} - Luckily Not Anymore with Smooth Creations &#128526;
+        </h4>
         <footer className="blockquote-footer">
           Someone famous in <cite title="Source Title">Mzansi</cite>
         </footer>
-        <p className='text-center mb-4'>
-          {' '}
-          “Instead of cleaning the house, I just turn off the lights.” {' '}
-        </p>
-        <footer className="blockquote-footer">
-          Someone famous in <cite title="Source Title">Mzansi</cite>
-        </footer>
+        <br/>
+        <Spinner animation="grow" variant="danger" />
       </blockquote>
     </Card.Body>
   </Card>
-  <Card className='homeCard' border='light' bg="info" >
+  <Card className='homeCard' border='light' bg="danger" >
   <Card.Header><h4>Cleaning & Gardening Services, No Body Does it Better</h4>   </Card.Header>
       <Card.Body >
         <Card.Text>
@@ -45,6 +40,17 @@ export default function Home() {
         </Card.Text>
       </Card.Body>
     </Card>
+    
+    <Card className='callUs' border='light' bg='warning'>
+    <Card.Body>
+      <blockquote className="blockquote mb-0">
+        <p className='text-center mb-4'>
+          {' '}
+          “Love what you see? So why dont you give us a Call &#128222; or drop us a text so we can call you back"
+        </p>
+      </blockquote>
+    </Card.Body>
+  </Card>
       </div>
   )
 }
