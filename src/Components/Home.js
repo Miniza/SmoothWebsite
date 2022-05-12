@@ -21,6 +21,8 @@ export default function Home() {
       </blockquote>
     </Card.Body>
   </Card>
+
+  
   <Card className='homeCard' border='light' bg="danger" >
   <Card.Header><h4>Cleaning & Gardening Services, No Body Does it Better</h4>   </Card.Header>
       <Card.Body >

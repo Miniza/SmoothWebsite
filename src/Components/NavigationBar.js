@@ -6,7 +6,7 @@ export default function NavigationBar() {
   return (
        <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark" className='fixed-top'>
   <Container>
-    <Button variant='outline-danger'>
+    <Button variant='outline-warning'>
     <Navbar.Brand href="#home">Smooth Creations</Navbar.Brand>
     </Button>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
