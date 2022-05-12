@@ -16,6 +16,7 @@ export default function NavigationBar() {
       <Nav.Link as={Link} to="/Solutions"><b>SOLUTIONS</b></Nav.Link>
       <Nav.Link as={Link} to="/Products"><b>PRODUCTS & SERVICES</b></Nav.Link>
       <Nav.Link as={Link} to="/Team"><b>MEET THE TEAM</b></Nav.Link>
+      <Nav.Link as={Link} to="/Gallery"><b>GALLERY</b></Nav.Link>
     </Nav>
     <Nav>
       <Button variant='danger'>
