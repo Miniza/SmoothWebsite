@@ -6,6 +6,7 @@ import NavBar from './Components/NavigationBar'
 import Footer from './Components/Footer'
 import Contact from './Components/Contact'
 import Team from './Components/Team';
+import Solutions from './Components/Solutions';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Route exact path="/" element={<Home/>}/>
     <Route path="/Team" element={<Team/>} />
     <Route path="Contact" element={<Contact/>}/>
+    <Route path="Solutions" element={<Solutions/>}/>
      </Routes>
      <br/>
      <Footer/>
