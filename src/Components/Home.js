@@ -6,25 +6,21 @@ export default function Home() {
   return (
       <div className='home'>
           <br/>
+          <br/>
           <Card className='welcomeQuote' border='light' bg='primary'>
     <Card.Body>
       <blockquote className="blockquote mb-0">
         <h4 className='text-center mb-4'>
           {' '}
-          “Instead of cleaning the house, I just turn off the lights.” {' '} - Luckily Not Anymore with Smooth Creations &#128526;
+          <marquee> Cleaning & Gardening Services, No Body Does it Better</marquee>
         </h4>
-        <footer className="blockquote-footer">
-          Someone famous in <cite title="Source Title">Mzansi</cite>
-        </footer>
-        <br/>
-        <Spinner animation="grow" variant="danger" />
+        <Spinner animation="grow" variant="warning" />
       </blockquote>
     </Card.Body>
   </Card>
 
   
   <Card className='homeCard' border='light' bg="danger" >
-  <Card.Header><h4>Cleaning & Gardening Services, No Body Does it Better</h4>   </Card.Header>
       <Card.Body >
         <Card.Text>
           <p>Recently hosted a big event or planning to host one soon but you cannot manage the stress of Cleaning 

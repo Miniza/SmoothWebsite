@@ -7,14 +7,14 @@ export default function NavigationBar() {
        <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark" className='fixed-top'>
   <Container>
     <Button variant='outline-warning'>
-    <Navbar.Brand href="#home">Smooth Creations</Navbar.Brand>
+    <Navbar.Brand href="#home">SMOOTH CREATIONS <br/> PTY LTD</Navbar.Brand>
     </Button>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse bg='danger' id="responsive-navbar-nav">
     <Nav className="me-auto">
       <Nav.Link as={Link} to="/"><b>HOME</b></Nav.Link>
+      <Nav.Link as={Link} to="/Products"><b>ABOUT</b></Nav.Link>
       <Nav.Link as={Link} to="/Solutions"><b>SOLUTIONS</b></Nav.Link>
-      <Nav.Link as={Link} to="/Products"><b>PRODUCTS & SERVICES</b></Nav.Link>
       <Nav.Link as={Link} to="/Team"><b>MEET THE TEAM</b></Nav.Link>
       <Nav.Link as={Link} to="/Gallery"><b>GALLERY</b></Nav.Link>
     </Nav>

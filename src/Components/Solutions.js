@@ -10,6 +10,7 @@ export default function Solutions() {
   return (
     <div className='home'>
     <br/>
+    <br/>
     <Card className='welcomeQuote' border='light' bg='primary'>
 <Card.Body>
 <blockquote className="blockquote mb-0">

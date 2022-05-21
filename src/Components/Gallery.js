@@ -6,6 +6,7 @@ export default function Gallery() {
   return (
       <div className='home'>
              <br/>
+             <br/>
     <Card className='welcomeQuote' border='light' bg='primary'>
 <Card.Body>
 <blockquote className="blockquote mb-0">
